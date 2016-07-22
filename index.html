@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">	
+<head>
+	<title>HighCharts Presentation</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/style.css">	
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-transition="convex">
+				<h1>Ember CLI and HighCharts</h1>
+				<p>For my presentation, I chose Highcharts.js, built inside of Ember CLI.</p>		
+			</section>
+			<section data-transition="convex">
+				<h1>What is Highcharts?</h1>
+				<p>Highcharts is a program for creating responsive charts, easily within a framework or without.  Highcharts supports many different kinds of charts, including pie, bar, line, and column.  The example I made uses column and line.</p>		
+			</section>
+			<section data-transition="convex">
+				<h1>Setting up Highcharts in Ember</h1>
+				<p>Setting up Highcharts in Ember is quite simple.  There are a few options for this.  The first is to use npm to install ember-highcharts and generate charts via CLI.  The second, which I did for simplicity, is to create controllers and add your chart options there.</p>	
+				<img src="img/charts.png" alt="Chart Types">	
+			</section>
+			<section data-transition="convex">
+				<h1>1. Create the Controller</h1>
+				<p><img src="img/cli-controller.png" alt="CLI Controller creation"></p>		
+			</section>
+			<section data-transition="convex">
+				<h1>2. Set up the Chart</h1>
+				<p><img src="img/ember-controller.png" alt="Ember Controller Setup"></p>		
+			</section>
+			<section data-transition="convex">
+				<h1>3. Call the Chart in the Template</h1>
+				<p><img src="img/template-reference.png" alt="Adding to the Template"></p>	
+			</section>
+			<section data-transition="convex">
+				<h1>Finished Chart and Example Code</h1>
+				<p><img src="img/finished.png" alt="Adding to the Template"><br />
+				<a href="https://github.com/leesaenz/wia-presentation.git">https://github.com/leesaenz/wia-presentation.git</a></p>		
+			</section>
+		</div>
+	</div>
+	<script src="js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script>
+	  Reveal.initialize({});
+	 </script>
+</body>
+</html>
